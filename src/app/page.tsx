@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Tombol1 from "@/components/button";
+import Tombol1, { Tombol2 } from "@/components/button";
 
 export default function Home() {
   return (
@@ -7,7 +7,10 @@ export default function Home() {
       <div className="container mx-auto">
         <h2>Kuis Kota</h2>
         <Tombol1 />
+        <hr /><hr />
+        <Tombol2 isiPesan="Ini Pesanku" namaTombol="Pesan"/>
       </div>
     </main>
   );
 }
+

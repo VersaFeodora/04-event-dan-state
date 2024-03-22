@@ -17,3 +17,13 @@ export default function Tombol1(){
         </button>
     );
 }
+export function Tombol2({isiPesan, namaTombol}:any) {
+  return (
+    <button
+      className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded"
+      onClick={()=>alert(isiPesan)}
+    >
+      {namaTombol}
+    </button>
+  );
+}

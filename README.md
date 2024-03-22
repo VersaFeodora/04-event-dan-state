@@ -17,3 +17,10 @@ In this button, three events are assigned with the following;
 ![Screenshot](README-pic/1d.png)
 <br/>
 
+### Practicum 2
+![Screenshot](README-pic/2a.png)
+![Screenshot](README-pic/2b.png)
+A new button will appear along with the text assigned within namaTombol parameter. When the said button is clicked, a message based on text that has been assigned in isiPesan parameter will appear.
+<br/>
+As seen in the code, when calling the component `<Tombol2 />`, two parameter are also assigned under the name `isiPesan` and `namaTombol`. Those parameters later are carried over into Tombol2 function as the value within specified variable. In this case, `namaTombol` will become the text inside the button, and `isiPesan` becomes alert message when it is clicked.
+<br/>
