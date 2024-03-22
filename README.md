@@ -45,3 +45,23 @@ When the button is clicked, a new set of sculpture data (name, image, desc, etc.
 3. The back button is initialized in `gallery.tsx`, where its function will have the index go back by 1. In addition, when it reaches 0, the button will set the index into the last one instead, which is 4.
 ![Screenshot](README-pic/4d.png)
 ![Screenshot](README-pic/4e.png)
+<br/>
+
+### Practicum 5
+![Screenshot](README-pic/5a.png)
+A set of form will appear with the button to submit
+![Screenshot](README-pic/5b.png)
+If any wrong answer is inputted, an error message will appear at the bottom of the button
+![Screenshot](README-pic/5c.png)
+If the right answer is inputted, the entire layout will disappear and a message will appear
+<br/><br/>
+<b>Input Name form:</b><br/>
+![Screenshot](README-pic/5f.png)
+After the code is changed, there is no change in its function and layout whatsoever
+<br/>
+1. The difference lies within fullName variable. In first form, there is State and Handler for fullname when we change firstName and lastName value, in which it will set combined text of them. While in second one, we declare the combination code immediately after declaring the variable, and thus the function `setFullName()` is removed as well.
+![Screenshot](README-pic/5d.png)
+![Screenshot](README-pic/5e.png)
+<br/>
+2. In terms of development environment, having to recall the handler in so many places may cause the developer to forget to update/apply it, and thus will cause some bugs that will be tedious to resolve. It also requires more time and resources to compute said handler compared to using the constant variable.
+<br/>
