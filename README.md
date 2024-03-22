@@ -32,3 +32,16 @@ New two green buttons will appear will appear
 When the first button is clicked, a message will appear corresponding to its parameter
 ![Screenshot](README-pic/3c.png)
 When the second button is clicked, a message will appear corresponding to its parameter
+
+### Practicum 4
+![Screenshot](README-pic/4a.png)
+When the button is clicked, a new set of sculpture data (name, image, desc, etc.) will be changed, as well as the number of `... of 5`. It is because the button will increase the current index by 1, thus will call the next set within sculptureList.
+<br/>
+1. If the button is clicked when the current page is 5 of 5, it will cause an error that declares that the sculpture data isn't exist. This is due to the button iterates the index that exceed the length of the list, which is 5.
+![Screenshot](README-pic/4b.png)
+<br/>
+2. The solution of this is to have the list go back into the first index within the list, which is 0, when it reaches the last index. This can be achieved by using if statement.
+![Screenshot](README-pic/4c.png)
+3. The back button is initialized in `gallery.tsx`, where its function will have the index go back by 1. In addition, when it reaches 0, the button will set the index into the last one instead, which is 4.
+![Screenshot](README-pic/4d.png)
+![Screenshot](README-pic/4e.png)
