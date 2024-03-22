@@ -24,3 +24,11 @@ A new button will appear along with the text assigned within namaTombol paramete
 <br/>
 As seen in the code, when calling the component `<Tombol2 />`, two parameter are also assigned under the name `isiPesan` and `namaTombol`. Those parameters later are carried over into Tombol2 function as the value within specified variable. In this case, `namaTombol` will become the text inside the button, and `isiPesan` becomes alert message when it is clicked.
 <br/>
+
+### Practicum 3
+![Screenshot](README-pic/3a.png)
+New two green buttons will appear will appear
+![Screenshot](README-pic/3b.png)
+When the first button is clicked, a message will appear corresponding to its parameter
+![Screenshot](README-pic/3c.png)
+When the second button is clicked, a message will appear corresponding to its parameter
