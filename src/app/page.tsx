@@ -2,6 +2,8 @@ import Image from "next/image";
 import Tombol1, { Tombol2, Tombol3 } from "@/components/button";
 import Gallery from "@/components/gallery";
 import Form, { Form2 } from "@/components/form";
+import Accordion from "@/components/accordion";
+import Messenger from "@/components/chat";
 
 export default function Home() {
   return (
@@ -21,6 +23,10 @@ export default function Home() {
         <Form />
         <hr /><hr />
         <Form2 />
+        <hr /><hr />
+        <Accordion />
+        <hr /><hr />
+        <Messenger />
       </div>
     </main>
   );

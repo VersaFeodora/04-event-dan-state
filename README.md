@@ -65,3 +65,15 @@ After the code is changed, there is no change in its function and layout whatsoe
 <br/>
 2. In terms of development environment, having to recall the handler in so many places may cause the developer to forget to update/apply it, and thus will cause some bugs that will be tedious to resolve. It also requires more time and resources to compute said handler compared to using the constant variable.
 <br/>
+
+### Practicum 6
+![Screenshot](README-pic/6a.png)
+![Screenshot](README-pic/6b.png)
+From the picture above, it can be seen that there are two sections regarding Almaty, in which we can hide or show the information based on their corresponding button--if we click on Etymology button, its info will appear and About info will be hidden behind the button, and vice versa.
+<br/>
+This is because of the if condition within Panel component. If the active state is the same as the current state within Accordion component, it will set the paragraph. If not, it will set the button element instead.
+<br/><br/>
+![Screenshot](README-pic/6c.png)
+When the key is added, the behavior within the textArea is changed. Before, the text that is filled within the textarea is still preserved even if we move onto another contact/click other button. Afterwards, now that the key is changed, the textarea will be cleared each time we move onto another contact.<br/>
+1. The addition of the key is so that whenever a different contact is selected, the Chat component will be recreated from scratch and thus clears out the field.
+2. Keys are used to give an identity to the elements in the lists. In this case, whenever its 'identity' is changed, the corresponding component will be recreated in response to match the identity.
